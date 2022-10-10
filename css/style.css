@@ -1,0 +1,15 @@
+#head-image {
+    height: 100px;
+    background-color: #4ea0ff;
+    background-image: url("../img/pattern.png");
+    background-size: 20%;
+    position: relative;
+}
+
+#logo{
+    width: 11em;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 7px;
+}
