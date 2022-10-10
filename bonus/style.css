@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+
+#head-image {
+    height: 100px;
+    background-color: #4ea0ff;
+    background-image: url("../img/pattern.png");
+    background-size: 30%;
+}
+
+#logo{
+    width: 11em;
+    position: relative;
+    margin-top: 40px;
+    padding: 5px;
+}
+
+main, footer{
+    padding: 5px;
+}
+
+#title{
+    font-size: 35px;
+}
+
+.source{
+    color: grey;
+}
+
+.link{
+    color:#32afe6;
+}
+
+article p:nth-child(4){
+    font-size: 10px;
+    color: gray;
+}
+
+.description{
+    font-size: 10px;
+}
+
+.highlight{
+    background-color: #ffff00;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+table{
+    width: 65em;
+    text-align: left;
+    border-spacing: 0px;
+}
+
+thead{
+    background-color: #20a9e5;
+    color: white;
+}
+
+tbody{
+    height: 15em;
+    width: 65em;
+}
+
+.short-column{
+    width: 20em;
+}
+
+tr td:last-child{
+    text-align: justify;
+    width: 25em;
+}
+
+.colored{
+    background-color: #b1e5f2;
+}
+
+div{
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.img-monitor{
+    background-image: url(../img/monitor.jpg);
+    position: relative;
+}
+
+.img-graph{
+    background-image: url(../img/graph.jpg);
+    position:relative;
+}
+
+.text-img{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left:10px;
+}
