@@ -48,3 +48,22 @@ article p:nth-child(4){
 ul {
     padding-left: 15px;
 }
+
+table{
+    width: 65em;
+    text-align: left
+}
+
+thead{
+    background-color: #20a9e5;
+    color: white;
+}
+
+tbody{
+    height: 15em;
+    width: 65em;
+}
+
+.colored{
+    background-color: #b1e5f2;
+}
