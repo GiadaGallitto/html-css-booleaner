@@ -51,7 +51,8 @@ ul {
 
 table{
     width: 65em;
-    text-align: left
+    text-align: left;
+    border-spacing: 0px;
 }
 
 thead{
@@ -62,6 +63,15 @@ thead{
 tbody{
     height: 15em;
     width: 65em;
+}
+
+.short-column{
+    width: 20em;
+}
+
+tr td:last-child{
+    text-align: justify;
+    width: 25em;
 }
 
 .colored{
@@ -81,7 +91,7 @@ div{
 
 .img-graph{
     background-image: url(../img/graph.jpg);
-    position:relative
+    position:relative;
 }
 
 .text-img{
