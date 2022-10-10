@@ -16,7 +16,7 @@
     padding: 5px;
 }
 
-main{
+main, footer{
     padding: 5px;
 }
 
@@ -24,7 +24,7 @@ main{
     font-size: 35px;
 }
 
-#source{
+.source{
     color: grey;
 }
 
@@ -66,4 +66,27 @@ tbody{
 
 .colored{
     background-color: #b1e5f2;
+}
+
+div{
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.img-monitor{
+    background-image: url(../img/monitor.jpg);
+    position: relative;
+}
+
+.img-graph{
+    background-image: url(../img/graph.jpg);
+    position:relative
+}
+
+.text-img{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left:10px;
 }
